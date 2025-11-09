@@ -31,7 +31,7 @@ export default function Home() {
                   <Link href="/on/health">Ontario health card updates</Link>
                 </li>
                 <li>
-                  <Link href="/on/license">Ontario drivers license and photo card updates</Link>
+                  <Link href="/on/id">Ontario drivers license and photo card updates</Link>
                 </li>
                 <li>
                   <Link href="/travel">Canadian passport updates</Link>

@@ -18,9 +18,6 @@ export default function TopBar() {
 
     return (
         <div className="top-bar">
-            <button onClick={toggleMobileNav}>
-                <Image src="/menu.svg" alt="Menu icon" width={32} height={32}/>
-            </button>
             <Link href="/" onClick={closeMobileNav}>
                 <h1>
                     <span style={{textTransform: 'lowercase'}}>TG</span> <small>I.D.</small>
@@ -28,9 +25,9 @@ export default function TopBar() {
                 </h1>
             </Link>
             <Nav mobileOpen={isMobileNavOpen} closeMobileNav={closeMobileNav}/>
-            <Link href="https://www.google.com" className="button">
-                <Image src="/close.svg" alt="Exit icon" width={32} height={32}/>
-            </Link>
+            <button onClick={toggleMobileNav}>
+                <Image src="/menu.svg" alt="Menu icon" width={32} height={32}/>
+            </button>
         </div>
     );
 }

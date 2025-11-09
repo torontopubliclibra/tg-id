@@ -59,11 +59,15 @@ button, .button {
 }
 
 ul {
-  padding-left: 15px;
   list-style-type: square;
 }
 
+ul, ol {
+  padding-left: 20px;
+}
+
 .top-bar {
+  z-index: 200;
   background-color: var(--semiwhite);
   color: var(--black);
   position: fixed;
@@ -181,7 +185,7 @@ h3 {
     padding: 30px;
   }
   .top-bar h1 {
-    padding-left: 0;
+    padding-left: 20px;
   }
   .top-bar button, .top-bar .button {
     display: block;

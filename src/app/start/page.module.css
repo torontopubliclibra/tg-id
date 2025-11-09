@@ -3,25 +3,43 @@
 }
 
 .start .main {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    background: var(--semiwhite);
-    color: var(--black);
-    font-size: 1.15rem;
-    padding: 50px;
-    max-width: 1500px;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: var(--semiwhite);
+  color: var(--black);
+  font-size: 1.15rem;
+  padding: 50px;
+  max-width: 1500px;
+  width: 100%;
 }
 
 .start div ul {
-    padding: 0;
-    padding-left: 15px;
-    list-style-type: square;
+  padding: 0;
+  list-style-type: none;
+}
+
+.start div ul li {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.start div ol li {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.start input, .start label {
+  cursor: pointer;
 }
 
 @media (max-width: 1200px) {
   .start {
     padding-top: 20px;
+  }
+  .start .main {
+    padding: 40px;
   }
 }

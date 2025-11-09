@@ -34,4 +34,7 @@
   .about {
     padding-top: 20px;
   }
+  .about .main {
+    padding: 40px;
+  }
 }

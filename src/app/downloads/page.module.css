@@ -18,4 +18,7 @@
   .downloads {
     padding-top: 20px;
   }
+  .downloads .main {
+    padding: 40px;
+  }
 }
