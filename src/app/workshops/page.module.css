@@ -1,0 +1,25 @@
+.workshops {
+  width: 100%;
+}
+
+.workshops .main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: var(--semiwhite);
+  color: var(--black);
+  font-size: 1.15rem;
+  padding: 50px;
+  max-width: 1500px;
+  width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .workshops {
+    padding-top: 20px;
+  }
+
+  .workshops .main {
+    width: 100%;
+  }
+}

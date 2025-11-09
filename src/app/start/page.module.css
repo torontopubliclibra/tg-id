@@ -1,0 +1,27 @@
+.start {
+  width: 100%;
+}
+
+.start .main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: var(--semiwhite);
+    color: var(--black);
+    font-size: 1.15rem;
+    padding: 50px;
+    max-width: 1500px;
+    width: 100%;
+}
+
+.start div ul {
+    padding: 0;
+    padding-left: 15px;
+    list-style-type: square;
+}
+
+@media (max-width: 1200px) {
+  .start {
+    padding-top: 20px;
+  }
+}

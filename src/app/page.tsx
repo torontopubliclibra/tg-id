@@ -1,64 +1,51 @@
-import Image from "next/image";
+import Link from "next/link";
+import "./globals.css";
 import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
+    <div className="page">
       <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
         <div className={styles.intro}>
-          <h1>To get started, edit the page.tsx file.</h1>
-          <p>
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className={styles.secondary}
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+          <div>
+            <p className={styles.headline}>
+              We all deserve I.D.s that reflect our lives <em><small>(and don&apos;t make them any more difficult)</small></em>.
+            </p>
+            <p>
+              Changing your legal name and gender marker across all of your identity documents in Ontario is a complex and frustrating process. <strong>TG I.D.</strong> is here to help make it easier by providing <Link href="/guides">step-by-step guides</Link>, <Link href="/downloads">downloadable forms</Link>, and <Link href="/workshops">resources to support you</Link> through the journey.
+            </p>
+            <p>Let&apos;s make I.D. changes accessible to everyone.</p>
+          </div>
+          <div className={styles.group}>
+            <div className="stacks flipped"></div>
+            <div className={styles.guides}>
+              <h2>Step-by-step guides on:</h2>
+              <ul>
+                <li>
+                  <Link href="/on/name">Ontario legal name changes</Link>
+                </li>
+                <li>
+                  <Link href="/on/birth">Ontario birth certificate updates</Link>
+                </li>
+                <li>
+                  <Link href="/on/health">Ontario health card updates</Link>
+                </li>
+                <li>
+                  <Link href="/on/license">Ontario drivers license and photo card updates</Link>
+                </li>
+                <li>
+                  <Link href="/travel">Canadian passport updates</Link>
+                </li>
+                <li>
+                  <Link href="/residency">Permanent resident card updates</Link>
+                </li>
+                <li>
+                  <Link href="/guides">and more...</Link>
+                </li>
+              </ul>
+            </div>
+            <div className="stacks"></div>
+          </div>
         </div>
       </main>
     </div>

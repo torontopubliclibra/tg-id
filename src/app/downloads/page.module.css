@@ -1,0 +1,21 @@
+.downloads {
+  width: 100%;
+}
+
+.downloads .main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: var(--semiwhite);
+  color: var(--black);
+  font-size: 1.15rem;
+  padding: 50px;
+  max-width: 1500px;
+  width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .downloads {
+    padding-top: 20px;
+  }
+}

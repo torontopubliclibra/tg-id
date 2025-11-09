@@ -1,0 +1,37 @@
+.about {
+  width: 100%;
+}
+
+.about .main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: var(--semiwhite);
+  color: var(--black);
+  font-size: 1.15rem;
+  padding: 50px;
+  max-width: 1500px;
+  width: 100%;
+}
+
+.sitemap, .sitemap ul {
+  list-style-type: disclosure-closed;
+}
+
+.about li {
+  padding-bottom: 10px;
+}
+
+.about li ul {
+  padding-top: 10px;
+}
+
+.about li ul li:last-child {
+  padding-bottom: 0;
+}
+
+@media (max-width: 1200px) {
+  .about {
+    padding-top: 20px;
+  }
+}

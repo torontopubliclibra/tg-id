@@ -1,0 +1,89 @@
+.nav, .subNav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.navContainer {
+  display: flex;
+}
+
+.nav li {
+  padding: 0;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.nav li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 30px 30px;
+}
+
+.dropdown:hover .subNav, .subNav:hover {
+  display: flex;
+}
+
+.nav li:hover {
+  background-color: var(--color2);
+}
+
+.nav li a img {
+  padding-bottom: 1px;
+}
+
+.subNav {
+  background-color: var(--white);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.05);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  padding: 0;
+}
+
+.subNav li {
+  padding: 0;
+  width: 100%;
+  font-style: normal;
+}
+
+.subNav li a {
+  justify-content: flex-start;
+  color: var(--black);
+}
+
+.subNav li:hover {
+  background-color: var(--color2);
+}
+
+@media (max-width: 1200px) {
+  .navContainer {
+    display: none;
+  }
+  .navContainer.mobileOpen {
+    display: flex;
+    position: absolute;
+    background: var(--semiwhite);
+    top: 80px;
+    left: 0;
+    width: 100%;
+  }
+  .dropdown:hover .subNav, .subNav:hover {
+    display: none;
+  }
+  .navContainer.mobileOpen .nav {
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+  }
+  .desktopOnly {
+    display: none;
+  }
+}
