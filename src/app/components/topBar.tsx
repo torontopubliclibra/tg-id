@@ -20,7 +20,7 @@ export default function TopBar() {
         <div className="top-bar">
             <Link href="/" onClick={closeMobileNav}>
                 <h1>
-                    <Image src="/id-card.svg" alt="I.D. icon" width={45} height={45} style={{paddingBottom: '2px', marginLeft: '-10px'}}/>I.D. Guide
+                    <Image src="/logo.png" alt="I.D. Guide logo" width={115} height={50}/>
                 </h1>
             </Link>
             <Nav mobileOpen={isMobileNavOpen} closeMobileNav={closeMobileNav}/>
