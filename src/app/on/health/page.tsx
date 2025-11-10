@@ -18,7 +18,6 @@ export default function OnHealth() {
             </ul>
           </div>
           <hr />
-          <br />
 
           <h3 id="process">Process</h3>
           <p>There is no fee for a new Ontario health card.</p>

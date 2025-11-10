@@ -43,6 +43,9 @@ export default function OnBirth() {
 
           <h4>By mail</h4>
           <p>Send your completed form, payment, and required documents to:</p>
+          <textarea readOnly name="address" id="address" value={
+            `Office of the Registrar General, P.O. Box 3000, 189 Red River Road, Thunder Bay, ON, P7B 5W0`}
+          />
 
           <p>If mailing at the same time as a name change, you can mail all documents in one envelope to the address listed under that section.</p> 
           <p>If being filed without a name change, we recommend a tracked envelope as with that application. Photocopied, faxed, or e-signed documents will not be accepted.</p>

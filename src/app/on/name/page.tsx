@@ -69,8 +69,14 @@ export default function OnName() {
           <h4>By mail</h4>
           <p>If possible, we recommend sending the entire application in a tracked envelope using Canada Post, to ease the stress of your application getting lost in the mail, and to allow for an update when it is likely beginning to be processed.</p>
           <p>Send your completed form, payment, and required documents to:</p>
+          <textarea readOnly name="address" id="address" value={
+            `Office of the Registrar General, P.O. Box 3000, 189 Red River Road, Thunder Bay, ON, P7B 5W0`}
+          />
           <h4>In person</h4>
           <p>If it is more accessible for you to submit the application in person and you are located in Toronto, you can bring your completed form, payment, and required documents to:</p>
+          <textarea readOnly name="address" id="address" value={
+            `ServiceOntario, 47 Sheppard Avenue East, Unit 417, 4th Floor, Toronto, ON, M2N 5N1 `}
+          />
 
           <h4>Delivery time</h4>
           <p>If your application is complete and accurate, you should receive a certificate of name change in 6-8 weeks, however it may take longer if you have requested a change to a single name or reclaimed name. If you were born in Ontario, you will also receive your updated birth certificate at that time. If you were born elsewhere in Canada, notice of your name change is generally sent to the vital statistics office in the province or territory where you were born. You will most likely need to apply to that vital statistics office to obtain a new birth certificate.</p>
