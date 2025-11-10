@@ -37,7 +37,7 @@
 .intro .headline {
   font-size: 3.25rem;
   text-wrap: balance;
-  font-family: var(--font-merriweather);
+  /* font-family: var(--font-merriweather); */
 }
 
 .intro .guides {
@@ -100,7 +100,7 @@ a.secondary {
 
   .intro .headline {
     text-align: left;
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     padding: 0 15px;
   }
 

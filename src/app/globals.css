@@ -132,7 +132,6 @@ h1 {
   align-items: center;
   gap: 10px;
   font-size: 2rem;
-  letter-spacing: 0.1rem;
   height: 60px;
 
   small {
@@ -142,7 +141,7 @@ h1 {
 }
 
 h2 {
-  font-family: var(--font-merriweather);
+  /* font-family: var(--font-merriweather); */
   font-size: 2rem;
   margin-bottom: 15px;
   color: var(--white);
@@ -152,7 +151,7 @@ h2 {
 }
 
 h3 {
-  font-family: var(--font-merriweather);
+  /* font-family: var(--font-merriweather); */
   font-size: 1.5rem;
 }
 
