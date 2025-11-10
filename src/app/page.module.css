@@ -11,7 +11,8 @@
 
 .intro {
   width: 100%;
-  max-width: 1500px;
+  max-width: 1400px;
+  padding-top: 15px;
   margin: 0 auto;
   display: flex;
   align-items: flex-start;
@@ -23,7 +24,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: 50vw;
+  width: 100%;
   max-width: 45vw;
 }
 
@@ -43,7 +44,7 @@
   background: var(--semiwhite);
   color: var(--black);
   padding: 50px;
-  width: 50vw;
+  width: 100%;
   height: 100%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.05);
 }
@@ -89,6 +90,7 @@ a.secondary {
     align-items: center;
     text-align: center;
     gap: 30px;
+    margin-bottom: 5px;
   }
 
   .intro div {
@@ -99,11 +101,13 @@ a.secondary {
   .intro .headline {
     text-align: left;
     font-size: 2.5rem;
+    padding: 0 15px;
   }
 
   .intro p {
     text-align: left;
     font-size: 1.25rem;
+    padding: 0 15px;
   }
 
   .intro .guides {

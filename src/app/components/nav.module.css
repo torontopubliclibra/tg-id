@@ -89,8 +89,13 @@
   }
   .navContainer.mobileOpen li a {
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     width: 100%;
+  }
+  .nav li a {
+    flex-direction: row-reverse;
+    padding-left: 20px;
+    font-size: 1.1rem;
   }
   .desktopOnly {
     display: none;

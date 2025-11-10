@@ -9,17 +9,22 @@ export default function Home() {
         <div className={styles.intro}>
           <div>
             <p className={styles.headline}>
-              We all deserve I.D.s that reflect our lives <em><small>(and don&apos;t make them any more difficult)</small></em>.
+              We all deserve identity documents that reflect our lives <em><small>(and don&apos;t make them any more difficult)</small></em>.
             </p>
             <p>
-              Changing your legal name and gender marker across all of your identity documents in Ontario is a complex and frustrating process. <strong>TG I.D.</strong> is here to help make it easier by providing <Link href="/guides">step-by-step guides</Link>, <Link href="/downloads">downloadable forms</Link>, and <Link href="/workshops">resources to support you</Link> through the journey.
+              Changing your legal name and gender marker across all of your I.D.s in Ontario is a complex and frustrating process.
             </p>
-            <p>Let&apos;s make I.D. changes accessible to everyone.</p>
+            <p>
+              <strong>I.D. Guide</strong> is here to help make it easier by providing <Link href="/guides">step-by-step guides</Link>, <Link href="/downloads">downloadable forms</Link>, and <Link href="/workshops">resources to support you</Link> through the journey.
+            </p>
+            <p>
+              Let&apos;s make I.D. changes accessible to everyone.
+            </p>
           </div>
           <div className={styles.group}>
             <div className="stacks flipped"></div>
             <div className={styles.guides}>
-              <h2>Step-by-step guides on:</h2>
+              <h2>Walking you through:</h2>
               <ul>
                 <li>
                   <Link href="/on/name">Ontario legal name changes</Link>

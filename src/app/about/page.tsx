@@ -9,7 +9,7 @@ export default function Home() {
         <div className="stacks flipped"></div>
         <div className={styles.main}>
           <p>TG I.D. is an online resource collecting information on how to update legal names, gender markers, and identity documents in Ontario, Canada. Please note however that this site does not provide legal advice.</p>
-          <p>The project is run by <Link href="https://danateagle.com" target='blank' rel='norefferer'>Dana Rosamund Teagle</Link>—a designer and web/software developer based in Toronto. Since 2021, she has led workshops on name and gender marker changes for a range of organizations. To learn more about booking her for in-person or online presentations, please visit <Link href="/workshops">our workshops page</Link>.</p>
+          <p>The project is led by <Link href="https://danateagle.com" target='blank' rel='norefferer'>Dana Rosamund Teagle</Link>—a designer and web/software developer based in Toronto. Since 2021, she has run workshops on name and gender marker changes for a range of organizations. To learn more about booking her for in-person or online presentations, please visit <Link href="/workshops">our workshops page</Link>.</p>
           <br />
           <h3 id='changelog'>Changelog</h3>
           <ul>

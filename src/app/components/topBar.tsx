@@ -20,8 +20,7 @@ export default function TopBar() {
         <div className="top-bar">
             <Link href="/" onClick={closeMobileNav}>
                 <h1>
-                    <span style={{textTransform: 'lowercase'}}>TG</span> <small>I.D.</small>
-                    <Image src="/id-card.svg" alt="I.D. icon" width={40} height={40} style={{paddingTop: '8px', marginLeft: '-8px'}}/>
+                    <Image src="/id-card.svg" alt="I.D. icon" width={45} height={45} style={{paddingBottom: '2px', marginLeft: '-10px'}}/>I.D. Guide
                 </h1>
             </Link>
             <Nav mobileOpen={isMobileNavOpen} closeMobileNav={closeMobileNav}/>
