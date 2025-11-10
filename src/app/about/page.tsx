@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div className="page">
       <main className={styles.about}>
-        <h2>About I.D. Guide</h2>
+        <h2 className="page-title">About I.D. Guide</h2>
         <div className="stacks flipped"></div>
         <div className={styles.main}>
           <p>I.D. Guide is an online resource collecting information on how to update legal names, gender markers, and identity documents in Ontario, Canada. Please note however that this site does not provide legal advice.</p>
@@ -24,7 +24,7 @@ export default function About() {
                 <li><Link href="/on/name">Ontario legal names</Link></li>
                 <li><Link href="/on/birth">Ontario birth certificates</Link></li>
                 <li><Link href="/on/health">Ontario health cards</Link></li>
-                <li><Link href="/on/license">Ontario drivers licenses and photo cards</Link></li>
+                <li><Link href="/on/license">Ontario driver&apos;s licenses and photo cards</Link></li>
                 <li><Link href="/travel">Canadian passports</Link></li>
                 <li><Link href="/residency">Permanent resident cards</Link></li>
                 <li><Link href="/sin">Social Insurance Registry</Link></li>

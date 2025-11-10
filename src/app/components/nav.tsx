@@ -34,13 +34,13 @@ export default function Nav(props: {mobileOpen: boolean, closeMobileNav: () => v
                             <Link href="/on/health">Ontario health cards</Link>
                         </li>
                         <li>
-                            <Link href="/on/license">Ontario drivers licenses and photo cards</Link>
+                            <Link href="/on/id">Ontario driver&apos;s licenses and photo cards</Link>
                         </li>
                         <li>
-                            <Link href="/travel">Canadian passports</Link>
+                            <Link href="/passport">Canadian passports</Link>
                         </li>
                         <li>
-                            <Link href="/residency">Permanent resident cards</Link>
+                            <Link href="/pr">Permanent resident cards</Link>
                         </li>
                         <li>
                             <Link href="/sin">Social Insurance Registry</Link>

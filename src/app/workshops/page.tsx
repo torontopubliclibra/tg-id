@@ -4,7 +4,7 @@ export default function Workshops() {
   return (
     <div className="page">
       <main className={styles.workshops}>
-        <h2>Workshops</h2>
+        <h2 className="page-title">Workshops</h2>
         <div className="stacks flipped"></div>
         <div className={styles.main}>
           <p>Dana Rosamund Teagle brings years of experience supporting trans, non-binary, Two-Spirit, and gender non-conforming communities in Ontario through practical guidance on name and gender marker changes. She has presented for organizations such as LGBT YouthLine, Windsor Hackforge, CUPE 3902, CUPE 3903, and CAMH.</p>

@@ -5,7 +5,7 @@ export default function OnHealth() {
   return (
     <div className="page">
       <main className={styles.about}>
-        <h2>Ontario health cards</h2>
+        <h2 className="page-title">Ontario health cards</h2>
         <div className="stacks flipped"></div>
         <div className={styles.main}>
 
@@ -44,9 +44,9 @@ export default function OnHealth() {
           <div className="pageNav">
             <p>See also: </p>
             <ul>
+              <li><Link href="/on/name">Ontario legal name changes</Link></li>
               <li><Link href="/on/birth">Ontario birth certificates</Link></li>
-              <li><Link href="/on/health">Ontario health cards</Link></li>
-              <li><Link href="/on/licenses">Ontario drivers licenses & photo cards</Link></li>
+              <li><Link href="/on/id">Ontario driver&apos;s licenses & photo cards</Link></li>
             </ul>
           </div>
         </div>

@@ -58,7 +58,7 @@ export default function Start() {
   return (
     <div className="page">
       <main className={styles.start}>
-        <h2>Get Started</h2>
+        <h2 className="page-title">Get Started</h2>
         <div className="stacks flipped"></div>
         <div className={styles.main}>
           <p>The identity documents you can update will vary depending on your given circumstances and what information you&apos;re updating.</p>
@@ -136,35 +136,35 @@ export default function Start() {
             {
                ((toggles.name) || (toggles.gender)) ? (
                 <li>
-                  <Link href="/on/id">Update the { toggles.name && toggles.gender ? 'name and gender marker' : '' }{ toggles.name && !toggles.gender ? 'name' : '' }{ !toggles.name && toggles.gender ? 'gender marker' : '' } on your Ontario drivers license or photo card</Link>
+                  <Link href="/on/id">Update the { toggles.name && toggles.gender ? 'name and gender marker' : '' }{ toggles.name && !toggles.gender ? 'name' : '' }{ !toggles.name && toggles.gender ? 'gender marker' : '' } on your Ontario driver&apos;s license or photo card</Link>
                 </li>
               ) : null
             }
             {
               (toggles.name || toggles.gender) && (toggles.citizen) ? (
                 <li>
-                  <Link href="/on/health">Update the { toggles.name && toggles.gender ? 'name and gender marker' : '' }{ toggles.name && !toggles.gender ? 'name' : '' }{ !toggles.name && toggles.gender ? 'gender marker' : '' } on your Canadian passport</Link>
+                  <Link href="/passport">Update the { toggles.name && toggles.gender ? 'name and gender marker' : '' }{ toggles.name && !toggles.gender ? 'name' : '' }{ !toggles.name && toggles.gender ? 'gender marker' : '' } on your Canadian passport</Link>
                 </li>
               ) : null
             }
             {
               (toggles.name || toggles.gender) && (toggles.pr) ? (
                 <li>
-                  <Link href="/on/health">Update the { toggles.name && toggles.gender ? 'name and gender marker' : '' }{ toggles.name && !toggles.gender ? 'name' : '' }{ !toggles.name && toggles.gender ? 'gender marker' : '' } on your Canadian permanent residency card</Link>
+                  <Link href="/pr">Update the { toggles.name && toggles.gender ? 'name and gender marker' : '' }{ toggles.name && !toggles.gender ? 'name' : '' }{ !toggles.name && toggles.gender ? 'gender marker' : '' } on your Canadian permanent residency card</Link>
                 </li>
               ) : null
             }
             {
               (toggles.name || toggles.gender) ? (
                 <li>
-                  <Link href="/on/health">Update your { toggles.name && toggles.gender ? 'name and gender marker' : '' }{ toggles.name && !toggles.gender ? 'name' : '' }{ !toggles.name && toggles.gender ? 'gender marker' : '' } with the Social Insurance registry</Link>
+                  <Link href="/sin">Update your { toggles.name && toggles.gender ? 'name and gender marker' : '' }{ toggles.name && !toggles.gender ? 'name' : '' }{ !toggles.name && toggles.gender ? 'gender marker' : '' } with the Social Insurance registry</Link>
                 </li>
               ) : null
             }
             {
               (toggles.name || toggles.gender) ? (
                 <li>
-                  <Link href="/on/health">Update your { toggles.name && toggles.gender ? 'name and gender marker' : '' }{ toggles.name && !toggles.gender ? 'name' : '' }{ !toggles.name && toggles.gender ? 'gender marker' : '' } with the Canada Revenue Agency</Link>
+                  <Link href="/cra">Update your { toggles.name && toggles.gender ? 'name and gender marker' : '' }{ toggles.name && !toggles.gender ? 'name' : '' }{ !toggles.name && toggles.gender ? 'gender marker' : '' } with the Canada Revenue Agency</Link>
                 </li>
               ) : null
             }

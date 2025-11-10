@@ -20,7 +20,7 @@ export default function TopBar() {
         <div className="top-bar">
             <Link href="/" onClick={closeMobileNav}>
                 <h1>
-                    <Image src="/logo.png" alt="I.D. Guide logo" width={97} height={45}/>
+                    <Image src="/logo-222.png" alt="I.D. Guide logo" width={90} height={45}/>
                     {/* I.D. guide */}
                 </h1>
             </Link>

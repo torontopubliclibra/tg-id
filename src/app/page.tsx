@@ -21,7 +21,7 @@ export default function Home() {
           <div className={styles.group}>
             <div className="stacks flipped"></div>
             <div className={styles.guides}>
-              <h2>Walking you through:</h2>
+              <h2 className="page-title">Walking you through:</h2>
               <ul>
                 <li>
                   <Link href="/on/name">Ontario legal name changes</Link>
@@ -33,13 +33,13 @@ export default function Home() {
                   <Link href="/on/health">Ontario health card updates</Link>
                 </li>
                 <li>
-                  <Link href="/on/id">Ontario drivers license and photo card updates</Link>
+                  <Link href="/on/id">Ontario driver&apos;s license and photo card updates</Link>
                 </li>
                 <li>
-                  <Link href="/travel">Canadian passport updates</Link>
+                  <Link href="/passport">Canadian passport updates</Link>
                 </li>
                 <li>
-                  <Link href="/residency">Permanent resident card updates</Link>
+                  <Link href="/pr">Permanent resident card updates</Link>
                 </li>
                 <li>
                   <Link href="/guides">and more...</Link>

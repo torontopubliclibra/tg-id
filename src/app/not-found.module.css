@@ -1,0 +1,9 @@
+.notfound {
+  color: var(--white);
+  text-align: center;
+}
+
+.notfound hr {
+    color: var(--white);
+    margin: 20px 0;
+}

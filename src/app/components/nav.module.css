@@ -31,7 +31,7 @@
 }
 
 .nav li:hover {
-  background-color: var(--color2);
+  background-color: var(--color1);
 }
 
 .nav li a img {

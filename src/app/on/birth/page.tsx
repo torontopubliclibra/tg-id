@@ -5,7 +5,7 @@ export default function OnBirth() {
   return (
     <div className="page">
       <main className={styles.about}>
-        <h2>Ontario birth certificates</h2>
+        <h2 className="page-title">Ontario birth certificates</h2>
         <div className="stacks flipped"></div>
 
         <div className={styles.main}>
@@ -68,7 +68,7 @@ export default function OnBirth() {
             <ul>
               <li><Link href="/on/name">Ontario name changes</Link></li>
               <li><Link href="/on/health">Ontario health cards</Link></li>
-              <li><Link href="/on/licenses">Ontario drivers licenses & photo cards</Link></li>
+              <li><Link href="/on/id">Ontario driver&apos;s licenses & photo cards</Link></li>
             </ul>
           </div>
         </div>

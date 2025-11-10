@@ -5,7 +5,7 @@ export default function OnName() {
   return (
     <div className="page">
       <main className={styles.about}>
-        <h2>Ontario legal name changes</h2>
+        <h2 className="page-title">Ontario name changes</h2>
         <div className="stacks flipped"></div>
         <div className={styles.main}>
 
@@ -89,7 +89,7 @@ export default function OnName() {
             <li>Put your initials beside each change</li>
             <li>Have the commissioner initial each change before it is sworn</li>
           </ul>
-          <p>Your change of name certificate will show your previous name and your new name. You can use this certificate to change your name on other personal documents, such as driver&apos;s licenses, photo cards, or health cards. Please note that by law in Ontario, if you have a driver&apos;s license, you must notify the Ministry of Transportation within 6 days of updating your name.</p>
+          <p>Your change of name certificate will show your previous name and your new name. You can use this certificate to change your name on other personal documents, such as driver&apos;s licenses, photo cards, or health cards. Please note that by law in Ontario, if you have a driver&apos;s license, you must notify the Ministry of Transportation within 6 days of legally changing your name.</p>
 
           <hr />
           <h3 id="sources">Sources</h3>
@@ -103,7 +103,7 @@ export default function OnName() {
             <ul>
               <li><Link href="/on/birth">Ontario birth certificates</Link></li>
               <li><Link href="/on/health">Ontario health cards</Link></li>
-              <li><Link href="/on/licenses">Ontario drivers licenses & photo cards</Link></li>
+              <li><Link href="/on/id">Ontario driver&apos;s licenses & photo cards</Link></li>
             </ul>
           </div>
         </div>

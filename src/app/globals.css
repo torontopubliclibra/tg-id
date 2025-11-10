@@ -8,7 +8,7 @@
   --dark3: #2c3a50;
   --dark4: #42375e;
   --dark5: #684a62;
-  --color1: #b28eb4;
+  --color1: #bda2bf;
   --color2: #c6c6e3;
 }
 
@@ -37,6 +37,7 @@
 
 html,
 body {
+  background: var(--black);
   max-width: 100vw;
   overflow-x: hidden;
 }
@@ -51,7 +52,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-input, label, textarea {
+h1, h2, h3, h4, h5, p, input, label, textarea {
   font-family: var(--font-libre-franklin);
 }
 
@@ -153,8 +154,7 @@ h1 {
   }
 }
 
-h2 {
-  /* font-family: var(--font-merriweather); */
+h2.page-title {
   font-size: 2rem;
   margin-bottom: 15px;
   color: var(--white);
@@ -164,7 +164,6 @@ h2 {
 }
 
 h3 {
-  /* font-family: var(--font-merriweather); */
   font-size: 1.5rem;
   margin-top: 10px;
 }
@@ -174,6 +173,7 @@ h2, h3, h4 {
 }
 
 hr {
+  color: var(--black);
   margin: 10px 0;
 }
 
@@ -203,12 +203,6 @@ hr {
 
 .page * {
   animation: fadeIn 0.75s;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
 }
 
 @media (max-width: 1200px) {
