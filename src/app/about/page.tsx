@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import styles from "./page.module.css";
 
-export default function Home() {
+export default function About() {
   return (
     <div className="page">
       <main className={styles.about}>
@@ -10,12 +10,10 @@ export default function Home() {
         <div className={styles.main}>
           <p>I.D. Guide is an online resource collecting information on how to update legal names, gender markers, and identity documents in Ontario, Canada. Please note however that this site does not provide legal advice.</p>
           <p>The project is led by <Link href="https://danateagle.com" target='blank' rel='norefferer'>Dana Rosamund Teagle</Link>—a designer and web/software developer based in Toronto. Since 2021, she has run workshops on name and gender marker changes for a range of organizations. To learn more about booking her for in-person or online presentations, please visit <Link href="/workshops">our workshops page</Link>.</p>
-          <br />
           <h3 id='changelog'>Changelog</h3>
           <ul>
             <li>v1.0.0 - </li>
           </ul>
-          <br />
           <h3 id='sitemap'>Sitemap</h3>
           <ul className={styles.sitemap}>
             <li><Link href="/">Home</Link></li>

@@ -124,7 +124,7 @@ ul, ol {
 a {
   color: inherit;
   text-decoration: underline;
-  transition: all 0.3s;
+  transition: color 0.3s;
 }
 
 h1 {
@@ -153,10 +153,15 @@ h2 {
 h3 {
   /* font-family: var(--font-merriweather); */
   font-size: 1.5rem;
+  margin-top: 10px;
 }
 
 h2, h3, h4 {
   scroll-margin-top: 100px;
+}
+
+hr {
+  margin: 10px 0;
 }
 
 .page {
@@ -175,8 +180,12 @@ h2, h3, h4 {
   font-size: 1.1rem;
 }
 
-.pageNav a {
-  font-weight: 600;
+.pageNav ul {
+  margin-top: 15px;
+}
+
+.pageNav p {
+  font-weight: 600;;
 }
 
 .page * {

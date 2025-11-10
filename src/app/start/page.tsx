@@ -21,7 +21,7 @@ const Checkbox = ({ id, label, checked, onChange, disabled }: CheckboxProps) => 
   );
 };
 
-export default function Home() {
+export default function Start() {
   const [toggles, setToggles] = useState({
     name: true,
     gender: true,
@@ -109,7 +109,7 @@ export default function Home() {
               )
             }
           </ul>
-          <br />
+          
           <h3>Your action plan:</h3>
           <ol>
             {
