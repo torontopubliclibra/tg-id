@@ -155,6 +155,10 @@ h3 {
   font-size: 1.5rem;
 }
 
+h2, h3, h4 {
+  scroll-margin-top: 100px;
+}
+
 .page {
   display: flex;
   min-height: calc(100vh - 160px);
@@ -165,6 +169,14 @@ h3 {
   align-items: center;
   justify-content: center;
   font-family: var(--font-libre-franklin);
+}
+
+.pageNav {
+  font-size: 1.1rem;
+}
+
+.pageNav a {
+  font-weight: 600;
 }
 
 .page * {

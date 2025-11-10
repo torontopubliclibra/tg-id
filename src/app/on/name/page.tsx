@@ -8,11 +8,16 @@ export default function Home() {
         <h2>Ontario legal name changes</h2>
         <div className="stacks flipped"></div>
         <div className={styles.main}>
-          <h3>Process</h3>
-          <p>To change your name, you will need to fill out the Ontario Application to Change an Adult&apos;s Name (11155e). This part of the presentation is based on the application updated as of October 2022. Please make sure you are filling out the most recent version of this form.</p>
-          <p>The application is nineteen pages long, and divided into seven parts, but you may not need to fill out all of them. You must also submit a fee of $137 with your application.</p>
+          <div className="pageNav">
+            Jump to: <Link href="#process">Process</Link> | <Link href="#requirements">Requirements</Link> | <Link href="#submitting-your-application">Submitting your application</Link>
+          </div>
+          <hr />
           <br />
-          <h3>Requirements</h3>
+          <h3 id='process'>Process</h3>
+          <p>To change your name, you need to fill out the Ontario Application to Change an Adult&apos;s Name (11155e).</p>
+          <p>This application is nineteen pages long, and divided into seven parts, but you may not need to fill out all of them. You must also submit a fee of $137 with your application.</p>
+          <br />
+          <h3 id='requirements'>Requirements</h3>
           <h4>Information to disclose</h4>
           <p>This application requires you to fill out a lot of your personal information, including:</p>
           <ol>
@@ -57,7 +62,6 @@ export default function Home() {
         <p>If it is more accessible for you to submit the application in person and you are located in Toronto, you can bring your completed form, payment, and required documents to:</p>
         <h4>Delivery time</h4>
         <p>If your application is complete and accurate, you should receive a certificate of name change in 6-8 weeks, however it may take longer if you have requested a change to a single name or reclaimed name. If you were born in Ontario, you will also receive your updated birth certificate at that time. If you were born elsewhere in Canada, notice of your name change is generally sent to the vital statistics office in the province or territory where you were born. You will most likely need to apply to that vital statistics office to obtain a new birth certificate.</p>
-        <br />
         <h4>Next steps and extra suggestions</h4>
         <p>When filling out these forms, make sure to give yourself time. It will likely take several weeks to gather all the information you need, and to complete, double-check, and submit the forms.</p>
         <p>Additionally, ensure you print clearly using a pen with blue or black ink, do not use correction fluid on any forms, and if you make a mistake or want to change information, you must do the following process:</p>
